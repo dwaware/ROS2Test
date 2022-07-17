@@ -1,7 +1,10 @@
 # ROS2Test
- A ROS2 test project.
 
-A quick talker/listener test that utilizes published messages move around a game object on screen:
+A ROS2 test project featuring the ROS2ForUnity package from RobotecAI.
+
+ROS2ForUnity is a "high-performance communication solution to connect Unity3D and ROS2 ecosystem in a ROS2 'native' way. Communication is not bridged as in several other solutions, but instead it uses ROS2 middleware stack (rcl layer and below), which means you can have ROS2 nodes in your simulation."
+
+This test creates a talker/listener pair that together, move around a game object on screen via published messages.
 
 ![start](https://user-images.githubusercontent.com/84337590/179428099-3c447756-8dc3-44ec-a350-33e83b8e204a.png)
 
