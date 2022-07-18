@@ -10,11 +10,19 @@ This test relies on a ROS2 talker/listener pair.  Together they move around a ga
 
 There are three objects in the scene:
 
-red cube -- a talker on the playfield
-blue sphere -- a listener on the playfield
-green cylinder -- a target indicator hovering above the playfield
+red cube -- a talker on the playfield<BR>
+blue sphere -- a listener on the playfield<BR>
+green cylinder -- a target indicator hovering above the playfield<BR>
 
-A geometry message is published by the talker and read by the listener.  The geometry message indicates a target point (taken from the x,z coordinates of the cylinder.)  Upon receipt of the message, the sphere's initial velocity is altered by a force directing it toward the target.
+A geometry message is published by the talker and read by the listener.  There actually multiple topics:
+
+![list](https://user-images.githubusercontent.com/74695555/179434220-e699ee1d-b888-4255-9a9e-a2707b143b77.png)
+
+but the target point is taken from geometry message which queries the cylinder's x and z coordinates.
+
+![point](https://user-images.githubusercontent.com/74695555/179434223-7b718ac9-423f-4b2f-b92a-149f3503909d.png)
+
+Upon receipt of the message, the sphere's initial velocity is altered by a force directing it toward the target.
 
 ![mid](https://user-images.githubusercontent.com/84337590/179428100-4a8e354f-c6f2-4698-adf3-232e2e101a0b.png)
 
