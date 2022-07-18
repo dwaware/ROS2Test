@@ -30,7 +30,7 @@ While you could direct the sphere directly toward the target location immediatel
   
 ![midway](https://user-images.githubusercontent.com/74695555/179434596-29059091-fb51-4984-a54b-cd47d88bfd2a.png)
   
-After a couple more orbits the sphere zeroes in on its target.
+After a few more decaying orbits the sphere zeroes in on its target.
 
 ![almost](https://user-images.githubusercontent.com/84337590/179428101-544548c9-66f7-45ca-a7bb-bc41c5b69689.png)
 
