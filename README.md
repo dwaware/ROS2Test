@@ -29,6 +29,8 @@ Upon receipt of the message, the sphere's initial velocity is altered by a force
 While you could direct the sphere directly toward the target location immediately and stop, this method was more interesting to watch.
   
 ![midway](https://user-images.githubusercontent.com/74695555/179434596-29059091-fb51-4984-a54b-cd47d88bfd2a.png)
+  
+After a couple more orbits the sphere zeroes in on it's target.
 
 ![almost](https://user-images.githubusercontent.com/84337590/179428101-544548c9-66f7-45ca-a7bb-bc41c5b69689.png)
 
