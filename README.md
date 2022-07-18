@@ -14,11 +14,11 @@ red cube -- a talker on the playfield<BR>
 blue sphere -- a listener on the playfield<BR>
 green cylinder -- a target indicator hovering above the playfield<BR>
 
-A geometry message is published by the talker and read by the listener.  There are actually multiple topics:
+A geometry message is published by the talker and read by the listener.  There are multiple topics:
 
 ![list](https://user-images.githubusercontent.com/74695555/179434220-e699ee1d-b888-4255-9a9e-a2707b143b77.png)
 
-but the message queries the cylinder for it's x and z coordinates, which are then passed on to the listener through the message.
+but it is the geometry message (point topic) that queries the cylinder for its x and z coordinates which are then passed on to the listener through the message data.
 
 ![point](https://user-images.githubusercontent.com/74695555/179434223-7b718ac9-423f-4b2f-b92a-149f3503909d.png)
 
